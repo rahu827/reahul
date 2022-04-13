@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: 
+  url(
+"/public/img/banner.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.banner_content{
+  width: 100%;
+  position: absolute;
+  color: #fff;
+  font-family: 'poppins';
+  left: 00%;
+  top: 40%;
+  text-align: center;
+}
+.banner_content h1{
+  text-transform: uppercase;
+font-size: 3.5rem;
+}
+.banner_content h3{
+  text-transform: capitalize;
+font-size: 2.5rem;
+}
+.overlay{
+  background-color: rgba(192, 8, 8, 0.459);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+.navbar{
+  z-index: 1;
+}
+a.nav-link{
+  font-size: 30px;
+    font-weight: 600;
+    font-family: 'poppin';
+    cursor: pointer;
+    color: rgb(255, 255, 255)!important;
+    position: relative;
+    text-transform: capitalize;
+}
+a.nav-link:after{
+  content: "";
+  width: 0;
+  height: 4%;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 1s;
+}
+a.nav-link:hover:after{
+  width: 80%;
+}
+.nav-link{
+    padding-right: 0.5rem;
+    padding-left: 25px!important;
+}
+.logo{
+  width: 300px;
+  margin-right: 16rem;
+}
+input {
+  position: absolute;
+  left: 35%;
+  width: 27%;
+  border-radius: 48px;
+  padding: 20px;
+  font-size: 22px;
+}
